@@ -1,5 +1,6 @@
 {
   "name": "omens-teste",
+  "homepage": "https://marciopinho.github.io/omens-challenge",
   "private": true,
   "version": "0.0.0",
   "type": "module",
