@@ -1,6 +1,7 @@
 import data from '../assets/data.json'
 import Navbar from './Navbar'
 import Product from './Product'
+import CardGroup from 'react-bootstrap/CardGroup';
 import { useState } from 'react';
 
 export default function Menu() {
@@ -30,9 +31,9 @@ export default function Menu() {
   return (
     <>
       <Navbar total={total} />
-      <section className="card-columns m-3">
+      <CardGroup>
         {items}
-      </section>
+      </CardGroup>
     </>
   )
 }
