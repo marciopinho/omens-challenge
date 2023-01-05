@@ -1,10 +1,12 @@
-export default function Navbar() {
+import { propTypes } from "react-bootstrap/esm/Image";
+
+export default function Navbar(props) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
 
         <div class="navbar-header menuitem"> {/* deletable div */}
-          <a class="navbar-brand" href="#">Menu</a>
+          <a class="navbar-brand" href="#">Menu {props.total}</a>
         </div>
 
         <div> 

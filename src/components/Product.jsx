@@ -8,9 +8,12 @@ export default function Product(props) {
 
   function addItem() {
     setAmt(prevAmt => prevAmt + 1)
+    props.updateTotalPlus(props.price, amt)
   }
+
   function subtractItem() {
     setAmt(prevAmt => prevAmt - 1)
+    props.updateTotalMinus(props.price, amt)
   }
 
   return (
