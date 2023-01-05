@@ -3,26 +3,31 @@
     [
       {
         "id": 1,
+        "image": "https://res.cloudinary.com/dkearav60/image/upload/v1672941614/temporary%2C%20delete%20%28omens%29/fries_naaj5c.png",
         "name": "Batata Frita",
         "price": 7.99
       },
       {
         "id": 2,
+        "image": "https://res.cloudinary.com/dkearav60/image/upload/v1672941614/temporary%2C%20delete%20%28omens%29/coke_m91hnj.png",
         "name": "Coca-Cola",
         "price": 4.50
       },
       {
         "id": 3,
+        "image": "https://res.cloudinary.com/dkearav60/image/upload/v1672941614/temporary%2C%20delete%20%28omens%29/guarana_w2s6wi.png",
         "name": "Guaraná",
         "price": 4.50
       },
       {
-        "id": 3,
+        "id": 4,
+        "image": "https://res.cloudinary.com/dkearav60/image/upload/v1672941614/temporary%2C%20delete%20%28omens%29/burger_hsgchb.png",
         "name": "Cheeseburguer",
         "price": 12.00
       },
       {
-        "id": 1,
+        "id": 5,
+        "image": "https://res.cloudinary.com/dkearav60/image/upload/v1672941885/temporary%2C%20delete%20%28omens%29/icecream_u0fh6z.png",
         "name": "Sorvete",
         "price": 6.72
       }

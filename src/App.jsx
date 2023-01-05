@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Product from "./components/Product"
-import ProductList from "./components/Menu"
+import Menu from "./components/Menu"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <div className="App">
-      <ProductList />
+      <Menu />
     </div>
   )
 }
