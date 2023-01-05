@@ -14,8 +14,11 @@ export default function Product(props) {
   }
 
   function subtractItem() {
-    setAmt(prevAmt => prevAmt - 1)
-    props.updateTotalMinus(props.price, amt)
+    // proibe quantidade negativa de itens:
+    if(amt > 0) {
+      setAmt(prevAmt => prevAmt - 1)
+      props.updateTotalMinus(props.price, amt)
+    }
   }
 
   return (
@@ -26,7 +29,9 @@ export default function Product(props) {
           <Card.Body>
             <div className="d-flex justify-content-between">
               <Card.Title>{props.name}</Card.Title>
-              <Card.Title>$ {props.price}</Card.Title>
+
+              {/* exibir duas casas decimais com .toFixed(2) */}
+              <Card.Title>$ {props.price.toFixed(2)}</Card.Title>
             </div>
             <div className="d-flex justify-content-center" style={{ border: '1px solid #ccc', width: '80px', marginInline: 'auto', marginBottom: '0.5em' }}>
               <Card.Title className="my-2">{amt}</Card.Title>
@@ -38,11 +43,6 @@ export default function Product(props) {
           </Card.Body>
         </Card>
       </Col>
-
     </Row>
-
-
   )
 }
-
-// render carrinho de compras.

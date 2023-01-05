@@ -5,14 +5,14 @@ import CardGroup from 'react-bootstrap/CardGroup';
 import { useState } from 'react';
 
 export default function Menu() {
+
+  // state variable que será acessível a <Navbar /> 
   const [total, setTotal] = useState(0)
 
   const updateTotalPlus = (price, amt) => {
-    console.log(price)
     setTotal(prevTotal => prevTotal += price)
   }
   const updateTotalMinus = (price, amt) => {
-    console.log(price)
     setTotal(prevTotal => prevTotal -= price)
   }
 
@@ -21,10 +21,10 @@ export default function Menu() {
       key={item.id}
       image={item.image}
       name={item.name}
+      // funções passadas como props para <Product />, para que `total` seja atualizada com base no state do child component.
       updateTotalPlus={updateTotalPlus}
       updateTotalMinus={updateTotalMinus}
-      // price={item.price.toFixed(2)} //*** maybe toFixed will cause it to bug
-      price={item.price} //*** maybe toFixed will cause it to bug
+      price={item.price}
     />
   )
 
