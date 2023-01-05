@@ -29,7 +29,7 @@ export default function Menu() {
 
   return (
     <>
-      <Navbar total={total.toFixed(2)} />
+      <Navbar total={total} />
       <section className="card-columns m-3">
         {items}
       </section>
