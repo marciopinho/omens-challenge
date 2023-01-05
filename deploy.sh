@@ -24,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:marciopinho/marciopinho.github.io.git main
 
 # if you are deploying to https://marciopinho.github.io/omens-challenge
-# git push -f git@github.com:marciopinho/omens-challenge.git main:gh-pages
+git push -f git@github.com:marciopinho/omens-challenge.git main:gh-pages
 
 cd -
