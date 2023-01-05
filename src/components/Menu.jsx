@@ -1,17 +1,22 @@
 import data from '../assets/data.json'
 import Product from './Product'
-import Card from 'react-bootstrap/Card';
 
-export default function ProductList() {
+export default function Menu() {
+
+  const items = data.products.map(item =>
+    <Product
+      key={item.id}
+      image={item.image}
+      name={item.name}
+      price={item.price.toFixed(2)}
+    />
+  )
 
   return (
     <>
-      {data.products.map(item => 
-        <Product
-          name={item.name}
-          price={item.price.toFixed(2)}
-        />
-      )}
+      <section className="card-columns m-3">
+        {items}
+      </section>
     </>
   )
 }

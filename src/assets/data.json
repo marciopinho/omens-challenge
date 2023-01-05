@@ -3,26 +3,31 @@
     [
       {
         "id": 1,
+        "image": "https://images.unsplash.com/photo-1550259114-ad7188f0a967?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
         "name": "Batata Frita",
         "price": 7.99
       },
       {
         "id": 2,
+        "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
         "name": "Coca-Cola",
         "price": 4.50
       },
       {
         "id": 3,
+        "image": "https://res.cloudinary.com/dkearav60/image/upload/v1672861793/refrigerante_wewi_guarana_organico_lata_350ml_wewi_333_1_4e7af14ec7d3aac746fe58f1bca0f22a_erkafl.png",
         "name": "Guaraná",
         "price": 4.50
       },
       {
-        "id": 3,
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1619901282828-7cbde1c89884?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
         "name": "Cheeseburguer",
         "price": 12.00
       },
       {
-        "id": 1,
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
         "name": "Sorvete",
         "price": 6.72
       }
